@@ -20,7 +20,7 @@ import { onMounted } from 'vue'
 
 const loginWithKakao =()=> {
   Kakao.Auth.authorize({
-    redirectUri: 'http://localhost:3000/', // 로그인 후 이동될 페이지
+    redirectUri: 'https://knk-kakaotest.netlify.app', // 로그인 후 이동될 페이지
   });
 }
 
